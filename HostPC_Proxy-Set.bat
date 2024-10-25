@@ -1,9 +1,10 @@
+@echo off
 REM Settings proxyAddress: localhost
 REM Settings proxyPortNumber: 8800
 REM Code By Kai_HT
 REM Will be updated later
+REM Version 1.0
 
-@echo off
 echo ┌───────────────────────────────────┒
 echo │ Proxy Force Settings Batch Files  ┃
 echo │ Create By Kai_HT : RedSec         ┃
