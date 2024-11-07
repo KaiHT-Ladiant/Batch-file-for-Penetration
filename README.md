@@ -12,4 +12,7 @@ A nmap installation is required prior to using the batch file.
 ### chromeCache Clearer
 Check the cache file and delete the entire cache file in Chrome for smooth commercial use of ChromeCacheViewer (Chrome forced to shut down before Chrome runs)
 
+### openPort Scanner
+Collect open port information within the target.
+
 # [RedSEC](https://redsec.co.kr/) Kai_HT
