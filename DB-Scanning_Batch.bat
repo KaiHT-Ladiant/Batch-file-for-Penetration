@@ -4,16 +4,16 @@ REM Scan the database default port
 REM Code By Kai_HT
 
 REM Will be updated later
-REM Version 1.0
+REM Version 1.1
 REM Set Encoding Type "ASCII" to save.
 
 REM Nmap installation is required.
 
 title DB Scanning - Kai_HT
-echo ┌─────────────────────┒
-echo ┃             DB Default Port Scanning            ┃
-echo │              Scripting From Kai_HT               ┃
-echo ┕━━━━━━━━━━━━━━━━━━━━━┛
+echo ┌───────────────────────────────────────────────────┒
+echo │              DB Default Port Scanning             ┃
+echo │               Scripting From Kai_HT               ┃
+echo ┕━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 echo.
 echo.
 echo ─────────
