@@ -15,4 +15,7 @@ Check the cache file and delete the entire cache file in Chrome for smooth comme
 ### openPort Scanner
 Collect open port information within the target.
 
+## Searching Previous Vulnerabilities
+Check for the same vulnerability item that was previously found.
+
 # [RedSEC](https://redsec.co.kr/) Kai_HT
