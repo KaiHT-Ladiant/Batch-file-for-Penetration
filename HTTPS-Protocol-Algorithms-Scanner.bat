@@ -1,6 +1,6 @@
 @echo off
 
-REM Scan Web Application HTTPS Protocols Alghorithm
+REM Scan Web Application HTTPS Protocols Alghorithms
 REM Code By Kai_HT
 
 REM Will be updated later
