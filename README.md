@@ -19,5 +19,7 @@ Collect open port information within the target.
 ### Searching Previous Vulnerabilities
 Check for the same vulnerability item that was previously found.
 
+### HTTPS Protocol Ciphers Algorithms Scanner
+Check for vulnerabilities in HTTPS protocol algorithms applied within web applications.
 
 # [RedSEC](https://redsec.co.kr/) Kai_HT
