@@ -5,7 +5,7 @@ REM Code By Kai_HT
 REM Will be updated later
 REM Version 1.1
 REM Updated IF Logic, And Custom ProxyNumber Set.
-REM Set Encoding Type "ASCII" to save.
+REM Set Encoding Type "ANSI" to save.
 
 echo ┌───────────────────────────────────┒
 echo │ Proxy Force Settings Batch Files  ┃
