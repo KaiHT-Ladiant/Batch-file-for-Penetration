@@ -5,7 +5,7 @@ REM Code By Kai_HT
 
 REM Will be updated later
 REM Version 1.0
-REM Set Encoding Type "ASCII" to save.
+REM Set Encoding Type "ANSI" to save.
 
 REM First Link Create on Users Desktop.
 REM This batch is also available on the open page with the Chrome Extension IE-Tab for the Developer Tools.
