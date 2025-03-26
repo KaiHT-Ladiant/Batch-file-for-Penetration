@@ -1,13 +1,17 @@
 @echo off
 
+setlocal enabledelayedexpansion
+for /f %%W in ('powershell -Command "(Get-Host).UI.RawUI.WindowSize.Width"') do set "width=%%W"
+set "line="
+
 REM Check previous vulnerabilities
 REM Version 1.0
 REM Set Encoding Type "ANSI" to save.
 
-echo â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”’
-echo â”‚          Check Previous Vulnerabilities          â”ƒ
-echo â”‚               Scripting From Kai_HT              â”ƒ
-echo â”•â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”›
+echo ¦£¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦Á
+echo ¦¢          Check Previous Vulnerabilities          ¦­
+echo ¦¢               Scripting From Kai_HT              ¦­
+echo ¦Æ¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦¬¦°
 
 REM Recommended to perform a search within the evidence folder.
 REM Evidence folder form:
@@ -27,5 +31,6 @@ for /f "delims=" %%i in ('dir /s /b /ad "*%VulCode%*" 2^>nul') do (
 )
 
 echo.
+for /l %%i in (1,1,%width%) do set "line=!line!¦¬"
 echo Search completed.
 pause

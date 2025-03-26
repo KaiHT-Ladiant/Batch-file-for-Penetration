@@ -1,5 +1,9 @@
 @echo off
 
+setlocal enabledelayedexpansion
+for /f %%W in ('powershell -Command "(Get-Host).UI.RawUI.WindowSize.Width"') do set "width=%%W"
+set "line="
+
 REM Create Windows Link for Edge Developer Tools
 REM Code By Kai_HT
 
@@ -19,5 +23,7 @@ echo.
 echo.
 echo Create Link Directory on Desktop.
 mklink %userprofile%\Desktop\IEChooser.exe %systemroot%\system32\f12\IEChooser.exe
+for /l %%i in (1,1,%width%) do set "line=!line!━"
+
 echo Link is allready.
 pause
